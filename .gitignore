@@ -24,3 +24,6 @@ my_site-*.tar
 
 # The default directory which Serum builds the website into.
 /site/
+
+# Local Netlify folder
+.netlify
