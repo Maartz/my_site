@@ -1,5 +1,5 @@
 %{
-  site_name: "Maartz",
+  site_name: "{:ok, :Maartz}",
   site_description: "Software developer",
   date_format: "{WDfull}, {D} {Mshort} {YYYY}",
   base_url: "/",
