@@ -3,6 +3,6 @@
   <li><a href="<%= page "about" %>">About</a></li>
   <li><a href="<%= base "posts" %>">Posts</a></li>
 </ul>
-<a href="https://dev.to/maartz">
+<a href="https://dev.to/maartz" target="_blank">
   <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Maartz's DEV Profile" height="30" width="30">
 </a>
