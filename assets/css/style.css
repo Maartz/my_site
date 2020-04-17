@@ -235,6 +235,13 @@ footer {
     width: 100vw;
     height: 5rem;
   }
+  
+  header .title, .title {
+    font-size: 4.2rem;
+    letter-spacing: 0.1em;
+    margin: 1rem 0;
+    z-index: 2;
+  }
 
   main,
   header,
