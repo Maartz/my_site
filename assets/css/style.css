@@ -14,8 +14,7 @@
       #FF6F91,
       #FF9671,
       #FFC75F,
-      #f7df1e,
-      #F9F871
+      #f7df1e
     );
 }
 
@@ -57,14 +56,22 @@ header .title, .title {
   letter-spacing: 0.1em;
   margin: 1rem 0;
   z-index: 2;
+  
+}
+
+header .title a {
+  text-decoration: none;
   background-image: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  /* transition: var(--transition-speed); */
+  transition: var(--transition-speed);
   background-size: 400%;
   background-position: left;
-  animation: bg-animate 1s infinite alternate;
+}
+
+.title a:hover, .card__category a:hover {
+  background-position: right;
 }
 
 header .subtitle {
@@ -107,7 +114,7 @@ footer {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  /* transition: var(--transition-speed); */
+  transition: var(--transition-speed);
   background-size: 400%;
   background-position: left;
   animation: bg-animate 1s infinite alternate;
@@ -241,6 +248,13 @@ footer {
     letter-spacing: 0.1em;
     margin: 1rem 0;
     z-index: 2;
+  }
+
+  .card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      transform: none;
+      z-index: 0;
+      padding: 0.5rem;
   }
 
   main,
