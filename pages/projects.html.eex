@@ -34,4 +34,18 @@ title: projects
       </div>
     </article>
   </div>
+
+  <div class="card"
+    style="background-image:url('./../media/wasm-js.png'); background-size: cover;">
+    <article>
+      <div class="technos">
+      <h1 class="title">WASM</h1>
+        <div class="basic-grid">
+          <p>A study about WASM and JS</p>
+        </div>
+      <a class="link" href="./../media/english-wasm.docx" download>Download</a>
+      </div>
+    </article>
+  </div>
+
 </div>
