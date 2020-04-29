@@ -7,11 +7,12 @@ title: projects
 <h1>Projects</h1>
 
 <div class="photo-grid">
-  <div class="card card-tall card-wide"
-    style="background-image:url('./../media/events.png'); background-size: cover;">
+  <div class="card card-tall card-wide" style="background-image:url('./../media/events.png'); background-size: cover;">
     <article>
       <div class="technos">
-      <h1 class="title">Events</h1>
+        <h1 class="title">
+          <a href="http://events.maartz.tech" target="_blank">Events</a>
+        </h1>
         <p>Made with:</p>
         <div class="basic-grid">
           <div>React</div>
@@ -21,11 +22,12 @@ title: projects
       </div>
     </article>
   </div>
-  <div class="card card-tall"
-    style="background-image:url('./../media/raiddit2.png'); background-size: cover;">
+  <div class="card card-tall" style="background-image:url('./../media/raiddit2.png'); background-size: cover;">
     <article>
       <div class="technos">
-      <h1 class="title">Raiddit</h1>
+        <h1 class="title">
+          <a href="#" target="_blank">Raiddit</a>
+        </h1>
         <p>Made with:</p>
         <div class="basic-grid">
           <div>Ruby On Rails</div>
@@ -35,15 +37,15 @@ title: projects
     </article>
   </div>
 
-  <div class="card"
-    style="background-image:url('./../media/wasm-js.png'); background-size: cover;">
+  <div class="card" style="background-image:url('./../media/wasm-js.png'); background-size: cover;">
     <article>
       <div class="technos">
-      <h1 class="title">WASM</h1>
+        <h1 class="title">WASM</h1>
         <div class="basic-grid">
           <p>A study about WASM and JS</p>
         </div>
-      <a class="link" href="./../media/english-wasm.docx" download>Download</a>
+        <p class="title">
+          <a class="link" href="./../media/english-wasm.docx" download>Download</a></p>
       </div>
     </article>
   </div>
