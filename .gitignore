@@ -28,3 +28,4 @@ my_site-*.tar
 # Local Netlify folder
 .netlify
 .elixir_ls
+.vscode
