@@ -1,5 +1,5 @@
 ---
-title: Some Elixir katas - Part II
+title: Some Elixir Katas - Part II
 date: 2020-04-30 11:29:53
 tags: functional, elixir
 ---
